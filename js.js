@@ -40,45 +40,53 @@ const arr = [1, 2, 234, 123, 556, 123, 9, 19, 12, 976];
 
 // // davhardaaguigee shalga
 
-let ab = "hello";
+// let ab = "hello";
 
-for (let i = 0; i <= ab.length; i++) {
-  for (let j = i + 1; j <= ab.length; j++) {
-    if (ab[i] == ab[j]) {
-      console.log(ab[i], ab[j]);
-    }
-  }
-}
+// for (let i = 0; i <= ab.length; i++) {
+//   for (let j = i + 1; j <= ab.length; j++) {
+//     if (ab[i] == ab[j]) {
+//       console.log(ab[i], ab[j]);
+//     }
+//   }
+// }
 
 // massive iin ogtoltsol olj butsaa
 
-let a = [1, 2, 234, 123, 556, 123, 9, 19, 12, 976];
-let b = [99, 123, 544, 998];
-let ogtoltsol = "";
+// let a = [1, 2, 234, 123, 556, 123, 9, 19, 12, 976];
+// let b = [99, 123, 544, 998];
+// let ogtoltsol = "";
 
-for (let i = 0; i <= a.length; i++) {
-  for (let j = 0; j <= b.length; j++) {
-    if (a[i] == b[j]) {
-      console.log(a[i], b[j]);
-      break;
-    }
-  }
-}
-aaaaaa;
-// tegsh too
-
-// let a = 10;
-
-// for (let i = 0; i < a; i++) {
-//   if(i += a % 2;)
-// }
-// console.log(a);
-// let n = 20;
-// let a = 0;
-
-// for (let i = 1; i < n; i++) {
-//   if (i % 2 == 0) {
-//     a += 1;
+// for (let i = 0; i <= a.length; i++) {
+//   for (let j = 0; j <= b.length; j++) {
+//     if (a[i] == b[j]) {
+//       console.log(a[i], b[j]);
+//       break;
+//     }
 //   }
 // }
-// console.log(a);
+// tegsh too
+
+// let a = 6;
+
+// for (let i = 1; i <= a; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+
+// ugugdsun n toonii undurtei piramid
+let n = 5;
+
+for (let i = 0; i < n; i++) {
+  let space = " ";
+
+  for (let a = 0; a < n - i; a++) {
+    space += " ";
+  }
+
+  for (let b = 0; b <= i; b++) {
+    space += "* ";
+  }
+
+  console.log(space);
+}
