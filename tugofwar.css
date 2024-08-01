@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+#too {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 500px;
+}
+.tug-of-war {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#tug-of-warr {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+button {
+  background-color: red;
+}
+.team {
+  height: 1000px;
+  width: 1120px;
+  text-align: center;
+  border: 2px solid #666;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.team-a {
+  border-color: black;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.team-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  gap: 20px;
+  border-color: black;
+}
+.score {
+  display: flex;
+  align-items: start;
+  font-size: x-large;
+  font-weight: bold;
+}

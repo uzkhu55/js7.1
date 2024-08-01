@@ -1,0 +1,17 @@
+#tagaa {
+  display: flex;
+  width: 400px;
+  height: 700px;
+  background-color: white;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: url(ee.jpg);
+  background-size: contain, 0, 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#tagaa:hover {
+  background-image: url(dd.jpg);
+  animation-play-state: running;
+}
